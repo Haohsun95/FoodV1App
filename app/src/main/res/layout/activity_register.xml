@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:src="@drawable/food_paradise" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="14sp"
+        android:drawableLeft="@mipmap/ic_perm_identity_black_18dp"
+        android:backgroundTint="@color/colorAccent"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint=" 請輸入您的名稱" />
+
+    <EditText
+        android:id="@+id/etAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="14sp"
+        android:drawableLeft="@mipmap/ic_email_black_18dp"
+        android:backgroundTint="@color/colorAccent"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint=" 請輸入您的E-Mail" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="14sp"
+        android:drawableLeft="@mipmap/ic_lock_outline_black_18dp"
+        android:backgroundTint="@color/colorAccent"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:hint=" 請輸入您的密碼" />
+
+    <EditText
+        android:id="@+id/etPasswordCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="14sp"
+        android:drawableLeft="@mipmap/ic_lock_outline_black_18dp"
+        android:backgroundTint="@color/colorAccent"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:hint=" 請再次輸入您的密碼" />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/registerMemberCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshape"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="Sign Up"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FOOD PARADISE</string>
+    <string name="title_home">地圖美食</string>
+    <string name="title_favorite">我的收藏</string>
+    <string name="title_category">推薦媒合</string>
+    <string name="title_member">會員設定</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="btn_3d_map">3D地圖</string>
+    <string-array name="spn_map_type_list">
+        <item>一般街道圖</item>
+        <item>衛星影像地圖</item>
+        <item>地形圖</item>
+        <item>混合地圖</item>
+    </string-array>
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+</resources>

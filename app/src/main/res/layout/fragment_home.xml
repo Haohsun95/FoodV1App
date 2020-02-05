@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/flMapContainer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        tools:context=".HomeFragment"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:menu_colorNormal="#64C5C9"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="20dp"
+        app:menu_fab_label="地圖選單"
+        app:menu_fab_size="normal">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_HF3dMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#64C5C9"
+            app:fab_colorPressed="#48BCA1"
+            app:fab_label="3D地圖"
+            app:fab_size="mini"
+            android:src="@mipmap/outline_3d_rotation_white_18" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_HF_NORMAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#64C5C9"
+            app:fab_colorPressed="#48BCA1"
+            app:fab_label="一般街道"
+            app:fab_size="mini"
+            android:src="@mipmap/outline_map_white_18" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_HF_SATELLITE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#64C5C9"
+            app:fab_colorPressed="#48BCA1"
+            app:fab_label="衛星影像"
+            app:fab_size="mini"
+            android:src="@mipmap/outline_map_white_18"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_HF_TERRAIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#64C5C9"
+            app:fab_colorPressed="#48BCA1"
+            app:fab_label="地形圖"
+            app:fab_size="mini"
+            android:src="@mipmap/outline_map_white_18" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_HF_HYBRID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#64C5C9"
+            app:fab_colorPressed="#48BCA1"
+            app:fab_label="混和地圖"
+            app:fab_size="mini"
+            android:src="@mipmap/outline_map_white_18" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</android.support.design.widget.CoordinatorLayout>
